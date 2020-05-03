@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+  
+</head>
+<body>
+    	<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<div class="site-logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<div class="nav-switch">
+						<i class="fa fa-bars"></i>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9">
+					<a href="index.aspx" class="site-btn header-btn">Sign Out</a>
+					<nav class="main-menu">
+						<ul>
+							<li><a href="home.aspx">Home</a></li>
+							<li><a href="aboutus.aspx">About us</a></li>
+							<li><a href="courses.aspx">Courses</a></li>
+                            <li><a href="teacher1.aspx">Teachers</a><li>
+                            <li><a href="search1.aspx">Search</a><li>
+							<li><a href="blog.aspx">News</a></li>
+							<li style="width: 1028px"><a href="contact.aspx">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer class="footer-section spad pb-0">
+		<div class="footer-top">
+			<div class="footer-warp">
+				<div class="row">
+					<div class="widget-item">
+						<h4>Contact Info</h4>
+						<ul class="contact-list">
+							<li>Chandigarh University</li>
+							<li>9463402958</li>
+							<li>uic.18mca8084@gmail.com</li>
+						</ul>
+					</div>
+					<div class="widget-item">
+						<h4>Engineering</h4>
+						<ul>
+							<li><a href="courses.aspx">Applied Studies</a></li>
+							<li><a href="courses.aspx">Computer Engineering</a></li>
+							<li><a href="courses.aspx">Software Engineering</a></li>
+							<li><a href="courses.aspx">Informational Engineering</a></li>
+							<li><a href="courses.aspx">System Engineering</a></li>
+						</ul>
+					</div>
+					<div class="widget-item">
+						<h4>Graphic Design</h4>
+						<ul>
+							<li><a href="courses.aspx">Applied Studies</a></li>
+							<li><a href="courses.aspx">Computer Engineering</a></li>
+							<li><a href="courses.aspx">Software Engineering</a></li>
+							<li><a href="courses.aspx">Informational Engineering</a></li>
+							<li><a href="courses.aspx">System Engineering</a></li>
+						</ul>
+					</div>
+					<div class="widget-item">
+						<h4>Development</h4>
+						<ul>
+							<li><a href="courses.aspx">Applied Studies</a></li>
+							<li><a href="courses.aspx">Computer Engineering</a></li>
+							<li><a href="courses.aspx">Software Engineering</a></li>
+							<li><a href="courses.aspx">Informational Engineering</a></li>
+							<li><a href="courses.aspx">System Engineering</a></li>
+						</ul>
+					</div>
+				<%--	<div class="widget-item">
+						<h4>Newsletter</h4>
+						<div class="footer-newslatter">
+							<input type="email" placeholder="E-mail"/>
+							<button class="site-btn">Subscribe</button>
+							<p>*We don’t spam</p>
+						</div>
+					</div>--%>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-warp">
+				<ul class="footer-menu">
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+				
+			</div>
+		</div>
+	</footer>
+    </form>
+</body>
+</html>
