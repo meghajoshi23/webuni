@@ -72,7 +72,7 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/big.jpg">
+	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
 		<div class="container">
 			<div class="hero-text text-white">
 				<h2>Get The Best Free Online Courses</h2>

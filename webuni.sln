@@ -24,8 +24,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "webuni", ".", "{D10D8959-DE
 		SlnRelativePath = "..\webuni\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "livechat", "..\livechat\livechat\livechat.csproj", "{B1143413-97AF-44FE-B7A4-306D0DEAFD2B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,12 +32,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D10D8959-DEFD-41FC-A0EB-460CD1759292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D10D8959-DEFD-41FC-A0EB-460CD1759292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10D8959-DEFD-41FC-A0EB-460CD1759292}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{D10D8959-DEFD-41FC-A0EB-460CD1759292}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{D10D8959-DEFD-41FC-A0EB-460CD1759292}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{B1143413-97AF-44FE-B7A4-306D0DEAFD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1143413-97AF-44FE-B7A4-306D0DEAFD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1143413-97AF-44FE-B7A4-306D0DEAFD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1143413-97AF-44FE-B7A4-306D0DEAFD2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
