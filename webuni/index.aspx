@@ -72,7 +72,7 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+	<section class="hero-section set-bg" data-setbg="img/imp-bg.jpeg">
 		<div class="container">
 			<div class="hero-text text-white">
 				<h2>Get The Best Free Online Courses</h2>
@@ -80,15 +80,13 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
-					<form class="intro-newslatter" runat="server">
-						<asp:TextBox ID="lemaila" runat="server"  placeholder="E-mail"  Width="200px"></asp:TextBox>
-                        <asp:TextBox ID="lpasswda" runat="server" placeholder="Password" textmode="Password" Height="52px" Width="200px"></asp:TextBox>
-                
-               
-                   
-						<asp:Button ID="Button3" runat="server" Text="Login" class="site-btn" OnClick="Button3_Click"/>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" BackColor="#FFCCFF" ControlToValidate="lemaila" ErrorMessage="Enter Email"></asp:RequiredFieldValidator>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" BackColor="#FFCCFF" ControlToValidate="lpasswda" ErrorMessage="Enter Password"></asp:RequiredFieldValidator>
+					<form class="" runat="server">
+						<asp:TextBox ID="lemaila" runat="server" class="last-s" placeholder="E-mail" Height="52px" Width="375px"></asp:TextBox>
+                        <asp:TextBox ID="lpasswda" runat="server" class="last-s" placeholder="Password" textmode="Password" Height="52px" Width="375px"></asp:TextBox>
+						<asp:Button ID="Button3" runat="server" Text="Login" class="site-btn header-btn" OnClick="Button3_Click"/>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" BackColor="#FFCCFF" ControlToValidate="lemaila" ErrorMessage="Please enter Email!!"></asp:RequiredFieldValidator><br>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Email format is incorrect!!" ValidationExpression="^[\w-]+(\.[\w-]+)*@([a-z0-9-]+(\.[a-z0-9-]+)*?\.[a-z]{2,6}|(\d{1,3}\.){3}\d{1,3})(:\d{4})?$" ControlToValidate="lemaila" Font-Bold="True" Font-Italic="True" BackColor="#FF6666"></asp:RegularExpressionValidator><br>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" BackColor="#FFCCFF" ControlToValidate="lpasswda" ErrorMessage="Please enter Password!!"></asp:RequiredFieldValidator>
             </div>
         </div>
 					</form>
@@ -208,21 +206,31 @@
 					<div class="widget-item">
 						<h4>Graphic Design</h4>
 						<ul>
-							<li><a href="signup1.aspx">Applied Studies</a></li>
-							<li><a href="signup1.aspx">Computer Engineering</a></li>
-							<li><a href="signup1.aspx">Software Engineering</a></li>
-							<li><a href="signup1.aspx">Informational Engineering</a></li>
-							<li><a href="signup1.aspx">System Engineering</a></li>
+							<li><a href="signup1.aspx">Illustration and drawing</a></li>
+							<li><a href="signup1.aspx">Publication</a></li>
+							<li><a href="signup1.aspx">Packaging</a></li>
+							<li><a href="signup1.aspx">User Interface</a></li>
+							<li><a href="signup1.aspx">Visual Identity</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Development</h4>
 						<ul>
-							<li><a href="signup1.aspx">Applied Studies</a></li>
-							<li><a href="signup1.aspx">Computer Engineering</a></li>
-							<li><a href="signup1.aspx">Software Engineering</a></li>
-							<li><a href="signup1.aspx">Informational Engineering</a></li>
-							<li><a href="signup1.aspx">System Engineering</a></li>
+							<li><a href="signup1.aspx">Web Development</a></li>
+							<li><a href="signup1.aspx">Web Designing</a></li>
+							<li><a href="signup1.aspx">Front End Developer</a></li>
+							<li><a href="signup1.aspx">Back End developer</a></li>
+							<li><a href="signup1.aspx">Mobile Developer</a></li>
+						</ul>
+					</div>
+                    <div class="widget-item">
+						<h4>Testing</h4>
+						<ul>
+							<li><a href="signup1.aspx">Selenium</a></li>
+							<li><a href="signup1.aspx">TestingWhiz</a></li>
+							<li><a href="signup1.aspx">Ranorex</a></li>
+							<li><a href="signup1.aspx">Watir</a></li>
+							<li><a href="signup1.aspx">Sahi</a></li>
 						</ul>
 					</div>
 				</div>

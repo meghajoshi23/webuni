@@ -42,13 +42,13 @@
 	
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+	<section class="hero-section set-bg" data-setbg="img/page-top-bg.jpg">
 		<div class="container">
 			<div class="hero-text text-white">
 				<h2>Get The Best Free Online Courses</h2>
-				<p>Here we provide the best courses.It makes us easier to learn any subject with the best online tutorials.Please Sign Up to Explore.</p>
+				<p>Here we provide the best courses.It makes us easier to learn any subject with the best online tutorials..</p>
 			</div>
-		<%--	<div class="row">
+			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
 					<form class="intro-newslatter">
 						<input type="text" placeholder="Name">
@@ -56,7 +56,7 @@
 						<button class="site-btn">Sign Up Now</button>
 					</form>
 				</div>
-			</div>--%>
+			</div>
 		</div>
 	</section>
 	<!-- Hero section end -->

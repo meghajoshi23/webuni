@@ -18,13 +18,16 @@
 				<div class="col-lg-3 col-md-3">
 					<div class="site-logo">
 						<img src="img/logo.png" alt="">
+
+                        
 					</div>
 					<div class="nav-switch">
 						<i class="fa fa-bars"></i>
 					</div>
 				</div>
-				<div class="col-lg-9 col-md-9">
-					<a href="index.aspx" class="site-btn header-btn">Sign Out</a>
+                <%--<a href="index.aspx" class="site-btn">Sign Out</a>--%>
+				<div class="">
+					<%--<a href="index.aspx" class="site-btn header-btn">Sign Out</a>--%>
 					<nav class="main-menu">
 						<ul>
 							<li><a href="home.aspx">Home</a></li>
@@ -34,6 +37,7 @@
                             <li><a href="search1.aspx">Search</a><li>
 							<li><a href="blog.aspx">News</a></li>
 							<li style="width: 1028px"><a href="contact.aspx">Contact</a></li>
+                            <li> <a href="index.aspx" style="color:red">Sign Out</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -69,21 +73,31 @@
 					<div class="widget-item">
 						<h4>Graphic Design</h4>
 						<ul>
-							<li><a href="courses.aspx">Applied Studies</a></li>
-							<li><a href="courses.aspx">Computer Engineering</a></li>
-							<li><a href="courses.aspx">Software Engineering</a></li>
-							<li><a href="courses.aspx">Informational Engineering</a></li>
-							<li><a href="courses.aspx">System Engineering</a></li>
+							<li><a href="courses.aspx">Illustration and drawing</a></li>
+							<li><a href="courses.aspx">Publication</a></li>
+							<li><a href="courses.aspx">Packaging</a></li>
+							<li><a href="courses.aspx">User Interface</a></li>
+							<li><a href="courses.aspx">Visual Identity</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Development</h4>
 						<ul>
-							<li><a href="courses.aspx">Applied Studies</a></li>
-							<li><a href="courses.aspx">Computer Engineering</a></li>
-							<li><a href="courses.aspx">Software Engineering</a></li>
-							<li><a href="courses.aspx">Informational Engineering</a></li>
-							<li><a href="courses.aspx">System Engineering</a></li>
+							<li><a href="courses.aspx">Web Development</a></li>
+							<li><a href="courses.aspx">Web Designing</a></li>
+							<li><a href="courses.aspx">Front End Developer</a></li>
+							<li><a href="courses.aspx">Back End developer</a></li>
+							<li><a href="courses.aspx">Mobile Developer</a></li>
+						</ul>
+					</div>
+                    <div class="widget-item">
+						<h4>Testing</h4>
+						<ul>
+							<li><a href="courses.aspx">Selenium</a></li>
+							<li><a href="courses.aspx">TestingWhiz</a></li>
+							<li><a href="courses.aspx">Ranorex</a></li>
+							<li><a href="courses.aspx">Watir</a></li>
+							<li><a href="courses.aspx">Sahi</a></li>
 						</ul>
 					</div>
 				<%--	<div class="widget-item">
