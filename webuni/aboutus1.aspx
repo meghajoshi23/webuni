@@ -67,13 +67,14 @@
 	<!-- Page info -->
 	<div class="page-info-section set-bg" data-setbg="img/page-bg/5.jpg">
 		<div class="container">
-            <div class="hero-text text-white">
-				<h2>About Us</h2>
-			</div>
-			<div class="site-breadcrumb">
+            <div class="site-breadcrumb">
 				<a href="home.aspx">Home</a>
 				<span>AboutUs</span>
 			</div>
+            <div class="hero-text text-white">
+				<h2>About Us</h2>
+			</div>
+			
 		</div>
 	</div>
 	<!-- Page info end -->
@@ -89,6 +90,49 @@
 				<p>Scaling Expectations.We work on providing the best quality to learners.</p>
 			</div>
 		</div>
+    
+    <section class="categories-section spad">
+		<div class="container">
+			<div class="section-title">
+				<h2>Our Team</h2>
+				<p>We provide the best Team for guidance.</p>
+			</div>
+			<div class="row">
+				<!-- categorie -->
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
+						<div class="ci-text">
+							<h5>Jane Doe</h5>
+							<p>It provides various web development courses.</p>
+							<span>120 Courses</span>
+						</div>
+					</div>
+				</div>
+				<!-- categorie -->
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
+						<div class="ci-text">
+							<h5>Marry Lucy</h5>
+							<p>There are various web design courses are available in it</p>
+							<span>70 Courses</span>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class=" ci-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
+						<div class="ci-text">
+							<h5>Jack Hill</h5>
+							<p>There are various web design courses are available in it</p>
+							<span>70 Courses</span>
+						</div>
+					</div>
+				</div>
+                </div>
+            </div>
+            </section>
 
 
 	<!-- Page -->
