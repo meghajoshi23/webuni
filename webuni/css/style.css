@@ -125,7 +125,7 @@ ol {
 
 .set-bg {
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:auto;
 	background-position: top center;
 }
 
@@ -350,7 +350,7 @@ ol {
 }
 
 .categorie-item .ci-thumb {
-	background-size: cover;
+	background-size:cover;
 	height: 148px;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
