@@ -52,7 +52,7 @@
 						<ul>
 							<li><a href="index.aspx">Home</a></li>
 							<li><a href="aboutus1.aspx">About us</a></li>
-							<li><a href="teacher1.aspx.html">Teachers</a></li>
+							<li><a href="teacher1.aspx">Teachers</a></li>
 							<li><a href="blog1.aspx">News</a></li>
 							<li><a href="contact1.aspx">Contact</a></li>
 						</ul>
@@ -71,23 +71,34 @@
 				<a href="home.aspx">Home</a>
 				<span>AboutUs</span>
 			</div>
-            <div class="hero-text text-white">
-				<h2>About Us</h2>
-			</div>
-			
 		</div>
 	</div>
 	<!-- Page info end -->
     <div class="container">
 			<div class="section-title mb-0">
-				<%--<h2>About Us</h2>--%>
-				<p>We our one of the leading websites that is provided online courses in an easiest way. we provide the best material from the internet that helps students to learn easily.</p>
+                <h2></h2>
+				<h2>Who We Are?</h2>
+				<p>We our one of the leading websites that is provided online courses in an easiest way.
+                     We provide the best material from the internet that helps students to learn easily.
+                    Facing various problems while studying then you are right place because we do are best
+                    our team is fully qualified.Experts are hired with more than 5 years expirience.We are in
+                    this place for more than 2 years.
+				</p>
+                <p>Live Chat is being added in this so that every student has the facility to ask the doubt session to any teacher anytime</p>
 			</div>
 		</div>
     <div class="container">
 			<div class="section-title mb-0">
+                <h2></h2>
 				<h2>Vision</h2>
-				<p>Scaling Expectations.We work on providing the best quality to learners.</p>
+				<p>Scaling Expectations.We work on providing the best quality to learners.
+                    webUni Online Course Portal will be nationally recognized as a leader in the application of innovative instructional technologies that facilitate 
+                    the next generation of teaching and learning.</p>
+                    <p>webUni Online Course Portal  is dedicated to supporting faculty, contributing to teaching excellence,
+                     and enhancing student success through: exemplary instructional design, effective application and 
+                    integration of instructional technologies, interactive digital media development, administration and enhancement of the university’s enterprise learning
+                     management system (Blackboard), and the deployment of innovative emerging technologies.
+				</p>
 			</div>
 		</div>
     
@@ -101,32 +112,32 @@
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
+						<div class="cil-thumb set-bg" data-setbg="img/authors/8.jpg"></div>
 						<div class="ci-text">
 							<h5>Jane Doe</h5>
-							<p>It provides various web development courses.</p>
-							<span>120 Courses</span>
+							<p>CEO</p>
+							<span>9 years experience</span>
 						</div>
 					</div>
 				</div>
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/authors/2.jpg"></div>
+						<div class="cil-thumb set-bg" data-setbg="img/authors/4.jpg"></div>
 						<div class="ci-text">
 							<h5>Marry Lucy</h5>
-							<p>There are various web design courses are available in it</p>
-							<span>70 Courses</span>
+							<p>Chairman</p>
+							<span>5 years Experience</span>
 						</div>
 					</div>
 				</div>
                 <div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class=" ci-thumb set-bg" data-setbg="img/authors/3.jpg"></div>
+						<div class=" cil-thumb set-bg" data-setbg="img/authors/1.jpg"></div>
 						<div class="ci-text">
 							<h5>Jack Hill</h5>
-							<p>There are various web design courses are available in it</p>
-							<span>70 Courses</span>
+							<p>Vice-Chairman</p>
+							<span>9 years experience</span>
 						</div>
 					</div>
 				</div>
@@ -134,12 +145,10 @@
             </div>
             </section>
 
-
 	<!-- Page -->
 	<section class="elements-page spad pb-0">
 			<div class="element">
-                <h2 class="e-title">Achivements</h2>
-				<h2 class="e-title"></h2>
+                <h2 class="section-title e-title">Achievements</h2>
 				<div class="row">
 					<div class="col-lg-3 col-sm-6 cp-item">
 						<div class="circle-progress" data-cpid="id-1" data-cpvalue="75" data-cpcolor="#e82154" data-cptitle="New Students"></div>
@@ -157,7 +166,7 @@
 			</div>
 			<!-- Element -->
 			<div class="element">
-				<h2 class="e-title">Milestones</h2>
+				<h2 class="section-title e-title">Milestones</h2>
 				<div class="row">
 					<div class="col-lg-3 col-sm-6 fact-item">
 						<h2>1200</h2>
@@ -179,7 +188,7 @@
 			</div>
 			<!-- Element -->
 			<div class="element">
-				<h2 class="e-title">Centers</h2>
+				<h2 class="section-title e-title">Centers</h2>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 icon-box">
 						<h5><span>01.</span>Offline Training Centers</h5>
@@ -227,21 +236,31 @@
 					<div class="widget-item">
 						<h4>Graphic Design</h4>
 						<ul>
-							<li><a href="signup.aspx">Applied Studies</a></li>
-							<li><a href="signup.aspx">Computer Engineering</a></li>
-							<li><a href="signup.aspx">Software Engineering</a></li>
-							<li><a href="signup.aspx">Informational Engineering</a></li>
-							<li><a href="signup.aspx">System Engineering</a></li>
+							<li><a href="signup.aspx">Illustration and drawing</a></li>
+							<li><a href="signup.aspx">Publication</a></li>
+							<li><a href="signup.aspx">Packaging</a></li>
+							<li><a href="signup.aspx">User Interface</a></li>
+							<li><a href="signup.aspx">Visual Identity</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Development</h4>
 						<ul>
-							<li><a href="signup.aspx">Applied Studies</a></li>
-							<li><a href="signup.aspx">Computer Engineering</a></li>
-							<li><a href="signup.aspx">Software Engineering</a></li>
-							<li><a href="signup.aspx">Informational Engineering</a></li>
-							<li><a href="signup.aspx">System Engineering</a></li>
+							<li><a href="signup.aspx">Web Development</a></li>
+							<li><a href="signup.aspx">Web Designing</a></li>
+							<li><a href="signup.aspx">Front End Developer</a></li>
+							<li><a href="signup.aspx">Back End developer</a></li>
+							<li><a href="signup.aspx">Mobile Developer</a></li>
+						</ul>
+					</div>
+                    <div class="widget-item">
+						<h4>Testing</h4>
+						<ul>
+							<li><a href="signup.aspx">Selenium</a></li>
+							<li><a href="signup.aspx">TestingWhiz</a></li>
+							<li><a href="signup.aspx">Ranorex</a></li>
+							<li><a href="signup.aspx">Watir</a></li>
+							<li><a href="signup.aspx">Sahi</a></li>
 						</ul>
 					</div>
 				</div>

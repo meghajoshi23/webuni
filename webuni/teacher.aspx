@@ -50,20 +50,40 @@
 	<!-- Hero section end -->
     <form runat="server">
     <asp:FileUpload ID="FileUpload1" runat="server" />
-<asp:Button ID="btnUpload" runat="server" Text="Upload" OnClick="Upload" />
+        <asp:DropDownList ID="DropDownList1" runat="server" Width="168px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" >
+
+        </asp:DropDownList>    
+<asp:Button ID="btnUpload" runat="server" class="site-btn" Text="Upload" OnClick="Upload" />
 <hr />
 <asp:GridView ID="GridView1" runat="server" HeaderStyle-BackColor="#3AC0F2" HeaderStyle-ForeColor="White"
     RowStyle-BackColor="#A1DCF2" AlternatingRowStyle-BackColor="White" AlternatingRowStyle-ForeColor="#000"
-    AutoGenerateColumns="false" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+    AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" CellPadding="4" ForeColor="#333333" GridLines="None" Width="320px">
+<AlternatingRowStyle BackColor="White"></AlternatingRowStyle>
     <Columns>
         <asp:BoundField DataField="Name" HeaderText="File Name"/>
-        <asp:TemplateField ItemStyle-HorizontalAlign = "Center">
+        <asp:BoundField HeaderText="Category" DataField="Category"/>
+        <asp:TemplateField ItemStyle-HorizontalAlign = "Center" HeaderText="Download">
            <ItemTemplate>
                 <asp:LinkButton ID="lnkDownload" runat="server" Text="Download" OnClick="DownloadFile"
                     CommandArgument='<%# Eval("id") %>'></asp:LinkButton>
             </ItemTemplate>
+
+<ItemStyle HorizontalAlign="Center"></ItemStyle>
         </asp:TemplateField>
     </Columns>
+
+    <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+
+<HeaderStyle BackColor="#990000" ForeColor="White" Font-Bold="True"></HeaderStyle>
+
+    <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+
+<RowStyle BackColor="#FFFBD6" ForeColor="#333333"></RowStyle>
+    <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+    <SortedAscendingCellStyle BackColor="#FDF5AC" />
+    <SortedAscendingHeaderStyle BackColor="#4D0000" />
+    <SortedDescendingCellStyle BackColor="#FCF6C0" />
+    <SortedDescendingHeaderStyle BackColor="#820000" />
 </asp:GridView>
         </form>
 

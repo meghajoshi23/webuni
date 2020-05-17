@@ -16,15 +16,19 @@ public partial class webuni_teacher : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
+            dropbind();
             BindGrid();
+            
         }
+        
+
     }
     private void BindGrid()
     {
         //String constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
         SqlConnection con = new SqlConnection("Data Source =.\\sqlexpress; Initial Catalog = webuni; Integrated Security = True");
         con.Open();
-        SqlCommand cmd = new SqlCommand("select id,Name from Tblfiles");
+        SqlCommand cmd = new SqlCommand("select id,Name,Category from Tblfiles");
             
                // cmd.CommandText = "";
                 cmd.Connection = con;
@@ -50,14 +54,15 @@ public partial class webuni_teacher : System.Web.UI.Page
 
                 con.Open();
                 //string query = ("insert into tblfiles(Name,ContentType,Data) values (@Name, @ContentType, @Data)",con);
-                    SqlCommand cmd = new SqlCommand(("insert into Tblfiles values (@Name, @ContentType, @Data)"), con);
+                    SqlCommand cmd = new SqlCommand(("insert into Tblfiles values (@Name, @ContentType, @Data ,@Category)"), con);
 
                 //cmd.Connection = con;
                 
                 cmd.Parameters.AddWithValue("@Name", filename);
                         cmd.Parameters.AddWithValue("@ContentType", contentType);
                         cmd.Parameters.AddWithValue("@Data", bytes);
-          
+                cmd.Parameters.AddWithValue("@Category", DropDownList1.Text );
+
 
                 cmd.ExecuteNonQuery();
                         con.Close();
@@ -104,5 +109,34 @@ public partial class webuni_teacher : System.Web.UI.Page
     protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
     {
 
+    }
+    private void dropbind()
+    {
+        SqlConnection con = new SqlConnection("Data Source =.\\sqlexpress; Initial Catalog = webuni; Integrated Security = True");
+        con.Open();
+        SqlCommand cmd = new SqlCommand("select Category from Category",con);
+        DropDownList1.Items.Add("Select Category");
+        SqlDataReader reader = cmd.ExecuteReader();
+        while (reader.Read())
+        {
+            DropDownList1.Items.Add(reader["Category"].ToString());
+        }
+        reader.Close();
+        con.Close();
+    }
+    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+        //SqlConnection con = new SqlConnection("Data Source =.\\sqlexpress; Initial Catalog = webuni; Integrated Security = True");
+        //con.Open();
+        //SqlCommand cmd = new SqlCommand("select Category from Category");
+        //DropDownList1.Items.Add("Select Category");
+        //SqlDataReader reader = cmd.ExecuteReader();
+        //while (reader.Read())
+        //{
+        //    DropDownList1.Items.Add(reader["Category"].ToString());
+        //}
+        //reader.Close();
+        //con.Close();
     }
 }

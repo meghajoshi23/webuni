@@ -49,7 +49,16 @@
 	<!-- Hero section end -->
     <p></p>
         <%--<asp:LinkButton runat="server" href="https://www.youtube.com/watch?v=pud4T_0sQZY" >LinkButton</asp:LinkButton>--%>
-    <div class="row course-items-area">
+  <%--<div class="leftSideBarParent">
+    <div class="leftSideBar">
+        <ul class="leftBarList"    >
+            <li>
+                <a href="https://www.geeksforgeeks.org/java-tutorials/?ref=lbp">Java Tutorials</a>
+            </li>
+        </ul>
+  </div>--%>
+    
+      <div class="row course-items-area">
     <div class="mix col-lg-3 col-md-4 col-sm-6 design">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/2.jpg">
@@ -76,7 +85,7 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Socia Media</h5>
-                                <li><a href="https://www.youtube.com/watch?v=vW53w7me4AE&list=PL27BCE863B6A864E3">Click</a></li>
+                                <%--<li><a href="https://www.youtube.com/watch?v=vW53w7me4AE&list=PL27BCE863B6A864E3">Click</a></li>--%>
                                 <form runat="server">
                                     Price : <asp:Label ID="payLabel" runat="server" Text="1000"></asp:Label><br>
                                 <asp:Button ID="payButton" runat="server" Text="BuyNow" OnClick="payButton_Click" />
@@ -89,6 +98,26 @@
 						</div>
 					</div>
 				</div>
+         <div class="mix col-lg-3 col-md-4 col-sm-6 design">
+					<div class="course-item">
+						<div class="course-thumb set-bg" data-setbg="img/courses/2.jpg">
+							
+						</div>
+						<div class="course-info">
+							<div class="course-text">
+								<h5>Basic Concepts Of Java</h5>
+                                <li><a href="itcoursetheory.aspx">Click To Learn</a></li>
+								<div class="students"></div>
+							</div>
+							<div class="course-author">
+								<div class="ca-pic set-bg" data-setbg="img/authors/2.jpg"></div>
+								<p>William Parker, <span>Developer</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
         </div>
 
 	<!--====== Javascripts & Jquery ======-->

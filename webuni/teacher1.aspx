@@ -66,7 +66,7 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+	<section class="hero-section set-bg" data-setbg="img/imp-bg.jpeg">
 		<div class="container">
 			<div class="hero-text text-white">
 				<h2>Get The Best Free Online Courses</h2>
@@ -77,16 +77,12 @@
 					<form class="intro-newslatter" runat="server">
 						<asp:TextBox ID="temail" runat="server" class="course-search-form" placeholder="E-mail" CssClass="text-success" Width="200px"></asp:TextBox>
                         <asp:TextBox ID="tpasswd" runat="server" placeholder="Password" class="course-search-form" Width="201px" ></asp:TextBox>
-                
-               
-                   
-						<asp:Button ID="Button3" runat="server" Text="Teacher Login" class="site-btn" OnClick="Button3_Click"/>
-            </div>
-        </div>
-					</form>
-				</div>
-			
+                        <asp:Button ID="Button3" runat="server" Text="Teacher Login" class="site-btn" OnClick="Button3_Click"/>
+                    </form>
+                </div>
+             </div>
 		</div>
+			
 	</section>
 	<!-- Hero section end -->
 
@@ -200,21 +196,31 @@
 					<div class="widget-item">
 						<h4>Graphic Design</h4>
 						<ul>
-							<li><a href="signup.aspx">Applied Studies</a></li>
-							<li><a href="signup.aspx">Computer Engineering</a></li>
-							<li><a href="signup.aspx">Software Engineering</a></li>
-							<li><a href="signup.aspx">Informational Engineering</a></li>
-							<li><a href="signup.aspx">System Engineering</a></li>
+							<li><a href="signup.aspx">Illustration and drawing</a></li>
+							<li><a href="signup.aspx">Publication</a></li>
+							<li><a href="signup.aspx">Packaging</a></li>
+							<li><a href="signup.aspx">User Interface</a></li>
+							<li><a href="signup.aspx">Visual Identity</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Development</h4>
 						<ul>
-							<li><a href="signup.aspx">Applied Studies</a></li>
-							<li><a href="signup.aspx">Computer Engineering</a></li>
-							<li><a href="signup.aspx">Software Engineering</a></li>
-							<li><a href="signup.aspx">Informational Engineering</a></li>
-							<li><a href="signup.aspx">System Engineering</a></li>
+							<li><a href="signup.aspx">Web Development</a></li>
+							<li><a href="signup.aspx">Web Designing</a></li>
+							<li><a href="signup.aspx">Front End Developer</a></li>
+							<li><a href="signup.aspx">Back End developer</a></li>
+							<li><a href="signup.aspx">Mobile Developer</a></li>
+						</ul>
+					</div>
+                    <div class="widget-item">
+						<h4>Testing</h4>
+						<ul>
+							<li><a href="signup.aspx">Selenium</a></li>
+							<li><a href="signup.aspx">TestingWhiz</a></li>
+							<li><a href="signup.aspx">Ranorex</a></li>
+							<li><a href="signup.aspx">Watir</a></li>
+							<li><a href="signup.aspx">Sahi</a></li>
 						</ul>
 					</div>
 				</div>
